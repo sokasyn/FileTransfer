@@ -1,0 +1,199 @@
+//
+//  temp.xcconfig
+//  FileTransfer
+//
+//  Created by Sam Tsang on 15/11/17.
+//  Copyright © 2015年 Sam Tsang. All rights reserved.
+//
+
+dict:{
+1111 =     {
+localFilePath = "/Users/samtsang/Library/Developer/CoreSimulator/Devices/DFB072C5-86D4-48F5-8D09-C0D381004F16/data/Containers/Bundle/Application/0D7D212B-A6D4-4FBB-92B1-A9218370F708/FileTransfer.app/Lion.jpg";
+serverFilePath = "/Users/samtsang/iWork/Temp/server/20151117171404.jpg";
+sourceId = 1111;
+startPosition = 0;
+taskStatus = 0;
+transferType = 1;
+};
+AddingEmojiKeybordHandled = 1;
+AppleITunesStoreItemKinds =     (
+software,
+document,
+"software-update",
+"itunes-u",
+booklet,
+artist,
+eBook,
+podcast,
+"podcast-episode",
+movie
+);
+AppleKeyboards =     (
+"en_US@hw=US;sw=QWERTY",
+"emoji@sw=Emoji",
+"zh_Hans-Pinyin@sw=Pinyin-Simplified;hw=US",
+"en_US@hw=US;sw=QWERTY"
+);
+AppleKeyboardsExpanded = 1;
+AppleLanguages =     (
+"en-US",
+"zh-Hans-US"
+);
+AppleLanguagesDidMigrate = "9.0";
+AppleLocale = "en_US";
+ApplePasscodeKeyboards =     (
+"en_US@hw=US;sw=QWERTY",
+"emoji@sw=Emoji",
+"en_US@hw=US;sw=QWERTY"
+);
+MSVLoggingMasterSwitchEnabledKey = 0;
+NSInterfaceStyle = macintosh;
+NSLanguages =     (
+"en-US",
+"zh-Hans-US",
+en
+);
+taskList =     (
+{
+localFilePath = "/Users/samtsang/Library/Developer/CoreSimulator/Devices/DFB072C5-86D4-48F5-8D09-C0D381004F16/data/Containers/Bundle/Application/CCFE116F-7FE9-4FE2-A5BF-06BA23575C9E/FileTransfer.app/Lion.jpg";
+serverFilePath = "/Users/samtsang/iWork/Temp/server/20151118085944.jpg";
+sourceId = 1111;
+startPosition = 3589120;
+taskId = 21;
+taskProgress = "0.81";
+taskStatus = 2;
+transferType = 1;
+}
+);
+}
+
+1 NSHomeDirectory()函数
+/Users/samtsang/Library/Developer/CoreSimulator/Devices/DFB072C5-86D4-48F5-8D09-C0D381004F16/data/Containers/Data/Application/F22C3993-CCDF-45ED-9DD9-32610B7763D2
+
+2 NSTemporaryDirectory() 函数
+/Users/samtsang/Library/Developer/CoreSimulator/Devices/DFB072C5-86D4-48F5-8D09-C0D381004F16/data/Containers/Data/Application/F22C3993-CCDF-45ED-9DD9-32610B7763D2/tmp/
+
+3 NSDownloadsDirectory 参数
+/Users/samtsang/Library/Developer/CoreSimulator/Devices/DFB072C5-86D4-48F5-8D09-C0D381004F16/data/Containers/Data/Application/F22C3993-CCDF-45ED-9DD9-32610B7763D2/Documents
+
+4 NSDocumentationDirectory 参数
+/Users/samtsang/Library/Developer/CoreSimulator/Devices/DFB072C5-86D4-48F5-8D09-C0D381004F16/data/Containers/Data/Application/F22C3993-CCDF-45ED-9DD9-32610B7763D2/Library/Documentation
+
+5 NSDownloadsDirectory 参数
+/Users/samtsang/Library/Developer/CoreSimulator/Devices/DFB072C5-86D4-48F5-8D09-C0D381004F16/data/Containers/Data/Application/F22C3993-CCDF-45ED-9DD9-32610B7763D2/Downloads
+
+6 NSCachesDirectory 参数
+/Users/samtsang/Library/Developer/CoreSimulator/Devices/DFB072C5-86D4-48F5-8D09-C0D381004F16/data/Containers/Data/Application/6C20B41C-9D7D-4152-BA08-00C594F96C85/Library/Caches
+
+
+UIImagePickerControllerDelegatedidFinishPickingMediaWithInfo
+info:{
+UIImagePickerControllerMediaType = "public.image";
+UIImagePickerControllerOriginalImage = "<UIImage: 0x7a0bcb10> size {3000, 2002} orientation 0 scale 1.000000";
+UIImagePickerControllerReferenceURL = "assets-library://asset/asset.JPG?id=6439DA8A-9A39-4267-BA17-C8DF4CD252E6&ext=JPG";
+}
+
+Connection to assetsd was interrupted or assetsd died
+
+
+/Users/samtsang/Library/Developer/CoreSimulator/Devices/DFB072C5-86D4-48F5-8D09-C0D381004F16/data/Containers/Data/Application/4EBC56A8-DE46-44E0-8F5B-427A06309707/Library/Caches/Upload
+UIViewAnimationOptions option = UIViewAnimationOptionTransitionNone;
+NSInteger input = [self.textField.text integerValue];
+switch (input) {
+case 0:{
+option = UIViewAnimationOptionTransitionNone;
+break;
+}
+case 1:{
+option = UIViewAnimationOptionLayoutSubviews;
+break;
+}
+case 2:{
+option = UIViewAnimationOptionAllowUserInteraction;
+break;
+}
+case 3:{
+option = UIViewAnimationOptionBeginFromCurrentState;
+break;
+}
+case 4:{
+option = UIViewAnimationOptionRepeat;
+break;
+}
+case 5:{
+option = UIViewAnimationOptionAutoreverse;
+break;
+}
+case 6:{
+option = UIViewAnimationOptionOverrideInheritedDuration;
+break;
+}
+case 7:{
+option = UIViewAnimationOptionOverrideInheritedCurve;
+break;
+}
+
+default:
+break;
+}
+
+Device NSUserDefaults
+NSUserDefaults info:{
+AKDeviceUnlockState = 0;
+AddingEmojiKeybordHandled = 1;
+AppleITunesStoreItemKinds =     (
+software,
+document,
+"software-update",
+"itunes-u",
+booklet,
+artist,
+eBook,
+podcast,
+"podcast-episode",
+movie
+);
+AppleKeyboards =     (
+"en_US@hw=US;sw=QWERTY",
+"zh_Hans-HWR@sw=HWR-Simplified",
+"zh_Hans-Wubihua@sw=Wubihua-Simplified;hw=US",
+"zh_Hans-Pinyin@sw=Pinyin-Simplified;hw=US",
+"ja_JP-Romaji@sw=QWERTY-Japanese;hw=US",
+"emoji@sw=Emoji"
+);
+AppleKeyboardsExpanded = 1;
+AppleLanguages =     (
+"zh-Hans-CN",
+"en-CN",
+"ja-CN"
+);
+AppleLanguagesDidMigrate = "9.0";
+AppleLocale = "zh_CN";
+ApplePasscodeKeyboards =     (
+"en_US@hw=US;sw=QWERTY",
+"zh_Hans-HWR@sw=HWR-Simplified",
+"zh_Hans-Wubihua@sw=Wubihua-Simplified;hw=US",
+"zh_Hans-Pinyin@sw=Pinyin-Simplified;hw=US",
+"ja_JP-Romaji@sw=QWERTY-Japanese;hw=US",
+"emoji@sw=Emoji"
+);
+INNextHearbeatDate = "471362510.3834";
+MSVLoggingMasterSwitchEnabledKey = 0;
+NSInterfaceStyle = macintosh;
+NSLanguages =     (
+"zh-Hans-CN",
+"en-CN",
+"ja-CN",
+en
+);
+"com.apple.content-rating.AppRating" = 1000;
+"com.apple.content-rating.ExplicitBooksAllowed" = 1;
+"com.apple.content-rating.ExplicitMusicPodcastsAllowed" = 1;
+"com.apple.content-rating.MovieRating" = 1000;
+"com.apple.content-rating.TVShowRating" = 1000;
+incresementKey = 1;
+taskList =     (
+);
+}
+
+Can't find keyplane that supports type 4 for keyboard iPhone-Portrait-NumberPad; using 563160167_Portrait_iPhone-Simple-Pad_Default

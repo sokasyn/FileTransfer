@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F94118C41BF85CA4008CBEA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F94118C31BF85CA4008CBEA5 /* main.m */; };
+		F94118C71BF85CA4008CBEA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F94118C61BF85CA4008CBEA5 /* AppDelegate.m */; };
+		F94118CD1BF85CA4008CBEA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94118CB1BF85CA4008CBEA5 /* Main.storyboard */; };
+		F94118CF1BF85CA4008CBEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94118CE1BF85CA4008CBEA5 /* Assets.xcassets */; };
+		F94118D21BF85CA4008CBEA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94118D01BF85CA4008CBEA5 /* LaunchScreen.storyboard */; };
+		F94118E91BF86AE9008CBEA5 /* FileTranserTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F94118E81BF86AE9008CBEA5 /* FileTranserTask.m */; settings = {ASSET_TAGS = (); }; };
+		F94118ED1BF880D9008CBEA5 /* client1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F94118EC1BF880D9008CBEA5 /* client1.jpg */; settings = {ASSET_TAGS = (); }; };
+		F94118F31BF88E2F008CBEA5 /* ImageTransferTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = F94118F21BF88E2F008CBEA5 /* ImageTransferTaskView.m */; settings = {ASSET_TAGS = (); }; };
+		F94118F51BF8C3CB008CBEA5 /* Lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F94118F41BF8C3CB008CBEA5 /* Lion.jpg */; settings = {ASSET_TAGS = (); }; };
+		F94118F71BF8C4D4008CBEA5 /* client2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F94118F61BF8C4D4008CBEA5 /* client2.jpg */; settings = {ASSET_TAGS = (); }; };
+		F94118FD1BFB8075008CBEA5 /* UserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F94118FC1BFB8075008CBEA5 /* UserDefaultsManager.m */; settings = {ASSET_TAGS = (); }; };
+		F9626DD81C29316100BB2163 /* Upload in Resources */ = {isa = PBXBuildFile; fileRef = F9626DD71C29316100BB2163 /* Upload */; settings = {ASSET_TAGS = (); }; };
+		F9668A9A1C146C6F00D62575 /* NSString+StringValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = F9668A991C146C6F00D62575 /* NSString+StringValidator.m */; settings = {ASSET_TAGS = (); }; };
+		F96BFA571C108B4100788380 /* ErrorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BFA561C108B4100788380 /* ErrorInfo.m */; settings = {ASSET_TAGS = (); }; };
+		F96BFA5A1C10B78200788380 /* FileCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BFA591C10B78200788380 /* FileCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F9D672BB1BFC0FB2000F20A3 /* Flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9D672BA1BFC0FB2000F20A3 /* Flower.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9D672C71BFCB55B000F20A3 /* FileDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D672BF1BFCB55B000F20A3 /* FileDownloadViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F9D672C81BFCB55B000F20A3 /* FileTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D672C11BFCB55B000F20A3 /* FileTransferViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F9D672C91BFCB55B000F20A3 /* FileUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D672C41BFCB55B000F20A3 /* FileUploadViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F9D672CA1BFCB55B000F20A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D672C61BFCB55B000F20A3 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F9D672CE1BFCB698000F20A3 /* temp.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F9D672CD1BFCB698000F20A3 /* temp.xcconfig */; settings = {ASSET_TAGS = (); }; };
+		F9D672D01BFE4D38000F20A3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D672CF1BFE4D37000F20A3 /* MobileCoreServices.framework */; };
+		F9D672D81BFF868F000F20A3 /* ImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D672D71BFF868F000F20A3 /* ImagePickerController.m */; settings = {ASSET_TAGS = (); }; };
+		F9D672DE1BFFADF1000F20A3 /* UIColor+AppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D672DD1BFFADF1000F20A3 /* UIColor+AppColor.m */; settings = {ASSET_TAGS = (); }; };
+		F9E621EF1C0EDC7000BA2191 /* TransferTaskViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E621ED1C0EDC7000BA2191 /* TransferTaskViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		F9E621F01C0EDC7000BA2191 /* TransferTaskViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E621EE1C0EDC7000BA2191 /* TransferTaskViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F94118BF1BF85CA4008CBEA5 /* FileTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94118C31BF85CA4008CBEA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F94118C51BF85CA4008CBEA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F94118C61BF85CA4008CBEA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F94118CC1BF85CA4008CBEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F94118CE1BF85CA4008CBEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F94118D11BF85CA4008CBEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F94118D31BF85CA4008CBEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94118E71BF86AE9008CBEA5 /* FileTranserTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTranserTask.h; sourceTree = "<group>"; };
+		F94118E81BF86AE9008CBEA5 /* FileTranserTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTranserTask.m; sourceTree = "<group>"; };
+		F94118EC1BF880D9008CBEA5 /* client1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = client1.jpg; sourceTree = "<group>"; };
+		F94118F11BF88E2F008CBEA5 /* ImageTransferTaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransferTaskView.h; sourceTree = "<group>"; };
+		F94118F21BF88E2F008CBEA5 /* ImageTransferTaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTransferTaskView.m; sourceTree = "<group>"; };
+		F94118F41BF8C3CB008CBEA5 /* Lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lion.jpg; sourceTree = "<group>"; };
+		F94118F61BF8C4D4008CBEA5 /* client2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = client2.jpg; sourceTree = "<group>"; };
+		F94118FB1BFB8075008CBEA5 /* UserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsManager.h; sourceTree = "<group>"; };
+		F94118FC1BFB8075008CBEA5 /* UserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsManager.m; sourceTree = "<group>"; };
+		F9626DD71C29316100BB2163 /* Upload */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Upload; sourceTree = "<group>"; };
+		F9668A981C146C6F00D62575 /* NSString+StringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringValidator.h"; sourceTree = "<group>"; };
+		F9668A991C146C6F00D62575 /* NSString+StringValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringValidator.m"; sourceTree = "<group>"; };
+		F9668A9B1C14D72800D62575 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		F96BFA551C108B4100788380 /* ErrorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorInfo.h; sourceTree = "<group>"; };
+		F96BFA561C108B4100788380 /* ErrorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorInfo.m; sourceTree = "<group>"; };
+		F96BFA581C10B78200788380 /* FileCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileCollectionViewController.h; sourceTree = "<group>"; };
+		F96BFA591C10B78200788380 /* FileCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileCollectionViewController.m; sourceTree = "<group>"; };
+		F9D672BA1BFC0FB2000F20A3 /* Flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flower.jpg; sourceTree = "<group>"; };
+		F9D672BE1BFCB55B000F20A3 /* FileDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloadViewController.h; sourceTree = "<group>"; };
+		F9D672BF1BFCB55B000F20A3 /* FileDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloadViewController.m; sourceTree = "<group>"; };
+		F9D672C01BFCB55B000F20A3 /* FileTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTransferViewController.h; sourceTree = "<group>"; };
+		F9D672C11BFCB55B000F20A3 /* FileTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTransferViewController.m; sourceTree = "<group>"; };
+		F9D672C31BFCB55B000F20A3 /* FileUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUploadViewController.h; sourceTree = "<group>"; };
+		F9D672C41BFCB55B000F20A3 /* FileUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUploadViewController.m; sourceTree = "<group>"; };
+		F9D672C51BFCB55B000F20A3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		F9D672C61BFCB55B000F20A3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
+		F9D672CD1BFCB698000F20A3 /* temp.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = temp.xcconfig; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.html; };
+		F9D672CF1BFE4D37000F20A3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F9D672D61BFF868F000F20A3 /* ImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerController.h; sourceTree = "<group>"; };
+		F9D672D71BFF868F000F20A3 /* ImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerController.m; sourceTree = "<group>"; };
+		F9D672DC1BFFADF1000F20A3 /* UIColor+AppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColor.h"; sourceTree = "<group>"; };
+		F9D672DD1BFFADF1000F20A3 /* UIColor+AppColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColor.m"; sourceTree = "<group>"; };
+		F9E621EC1C0EDC7000BA2191 /* TransferTaskViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferTaskViewCell.h; sourceTree = "<group>"; };
+		F9E621ED1C0EDC7000BA2191 /* TransferTaskViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferTaskViewCell.m; sourceTree = "<group>"; };
+		F9E621EE1C0EDC7000BA2191 /* TransferTaskViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransferTaskViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F94118BC1BF85CA4008CBEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D672D01BFE4D38000F20A3 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F94118B61BF85CA4008CBEA5 = {
+			isa = PBXGroup;
+			children = (
+				F94118C11BF85CA4008CBEA5 /* FileTransfer */,
+				F94118C01BF85CA4008CBEA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F94118C01BF85CA4008CBEA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F94118BF1BF85CA4008CBEA5 /* FileTransfer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F94118C11BF85CA4008CBEA5 /* FileTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				F94118C51BF85CA4008CBEA5 /* AppDelegate.h */,
+				F94118C61BF85CA4008CBEA5 /* AppDelegate.m */,
+				F9D672C51BFCB55B000F20A3 /* ViewController.h */,
+				F9D672C61BFCB55B000F20A3 /* ViewController.m */,
+				F9D672BC1BFCB4EE000F20A3 /* Controller */,
+				F94118E01BF869C9008CBEA5 /* View */,
+				F94118DF1BF86666008CBEA5 /* Model */,
+				F94118EA1BF8809A008CBEA5 /* Resource */,
+				F9D672D11BFE5459000F20A3 /* Framewoks */,
+				F94118CB1BF85CA4008CBEA5 /* Main.storyboard */,
+				F94118CE1BF85CA4008CBEA5 /* Assets.xcassets */,
+				F94118D01BF85CA4008CBEA5 /* LaunchScreen.storyboard */,
+				F94118D31BF85CA4008CBEA5 /* Info.plist */,
+				F94118C21BF85CA4008CBEA5 /* Supporting Files */,
+			);
+			path = FileTransfer;
+			sourceTree = "<group>";
+		};
+		F94118C21BF85CA4008CBEA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F94118C31BF85CA4008CBEA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F94118DF1BF86666008CBEA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9668A971C146C0700D62575 /* Common */,
+				F94118E71BF86AE9008CBEA5 /* FileTranserTask.h */,
+				F94118E81BF86AE9008CBEA5 /* FileTranserTask.m */,
+				F94118FB1BFB8075008CBEA5 /* UserDefaultsManager.h */,
+				F94118FC1BFB8075008CBEA5 /* UserDefaultsManager.m */,
+				F96BFA551C108B4100788380 /* ErrorInfo.h */,
+				F96BFA561C108B4100788380 /* ErrorInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F94118E01BF869C9008CBEA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F94118F11BF88E2F008CBEA5 /* ImageTransferTaskView.h */,
+				F94118F21BF88E2F008CBEA5 /* ImageTransferTaskView.m */,
+				F9D672DC1BFFADF1000F20A3 /* UIColor+AppColor.h */,
+				F9D672DD1BFFADF1000F20A3 /* UIColor+AppColor.m */,
+				F9E621EC1C0EDC7000BA2191 /* TransferTaskViewCell.h */,
+				F9E621ED1C0EDC7000BA2191 /* TransferTaskViewCell.m */,
+				F9E621EE1C0EDC7000BA2191 /* TransferTaskViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F94118EA1BF8809A008CBEA5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F94118EB1BF8809A008CBEA5 /* Image */,
+				F9D672CC1BFCB676000F20A3 /* File */,
+				F9D672CB1BFCB61E000F20A3 /* JavaSource */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F94118EB1BF8809A008CBEA5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F9D672BA1BFC0FB2000F20A3 /* Flower.jpg */,
+				F94118F61BF8C4D4008CBEA5 /* client2.jpg */,
+				F94118EC1BF880D9008CBEA5 /* client1.jpg */,
+				F94118F41BF8C3CB008CBEA5 /* Lion.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		F9668A971C146C0700D62575 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F9668A981C146C6F00D62575 /* NSString+StringValidator.h */,
+				F9668A991C146C6F00D62575 /* NSString+StringValidator.m */,
+				F9668A9B1C14D72800D62575 /* Common.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F9D672BC1BFCB4EE000F20A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9D672D51BFF8602000F20A3 /* FileTansfer */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9D672BD1BFCB55B000F20A3 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				F9D672BE1BFCB55B000F20A3 /* FileDownloadViewController.h */,
+				F9D672BF1BFCB55B000F20A3 /* FileDownloadViewController.m */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		F9D672C21BFCB55B000F20A3 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				F9D672C31BFCB55B000F20A3 /* FileUploadViewController.h */,
+				F9D672C41BFCB55B000F20A3 /* FileUploadViewController.m */,
+				F96BFA581C10B78200788380 /* FileCollectionViewController.h */,
+				F96BFA591C10B78200788380 /* FileCollectionViewController.m */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		F9D672CB1BFCB61E000F20A3 /* JavaSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JavaSource;
+			path = Image/JavaSource;
+			sourceTree = "<group>";
+		};
+		F9D672CC1BFCB676000F20A3 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				F9D672CD1BFCB698000F20A3 /* temp.xcconfig */,
+				F9626DD71C29316100BB2163 /* Upload */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		F9D672D11BFE5459000F20A3 /* Framewoks */ = {
+			isa = PBXGroup;
+			children = (
+				F9D672CF1BFE4D37000F20A3 /* MobileCoreServices.framework */,
+			);
+			path = Framewoks;
+			sourceTree = "<group>";
+		};
+		F9D672D51BFF8602000F20A3 /* FileTansfer */ = {
+			isa = PBXGroup;
+			children = (
+				F9D672C01BFCB55B000F20A3 /* FileTransferViewController.h */,
+				F9D672C11BFCB55B000F20A3 /* FileTransferViewController.m */,
+				F9D672D61BFF868F000F20A3 /* ImagePickerController.h */,
+				F9D672D71BFF868F000F20A3 /* ImagePickerController.m */,
+				F9D672C21BFCB55B000F20A3 /* Upload */,
+				F9D672BD1BFCB55B000F20A3 /* Download */,
+			);
+			name = FileTansfer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F94118BE1BF85CA4008CBEA5 /* FileTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94118D61BF85CA4008CBEA5 /* Build configuration list for PBXNativeTarget "FileTransfer" */;
+			buildPhases = (
+				F94118BB1BF85CA4008CBEA5 /* Sources */,
+				F94118BC1BF85CA4008CBEA5 /* Frameworks */,
+				F94118BD1BF85CA4008CBEA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileTransfer;
+			productName = FileTransfer;
+			productReference = F94118BF1BF85CA4008CBEA5 /* FileTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F94118B71BF85CA4008CBEA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sam Tsang";
+				TargetAttributes = {
+					F94118BE1BF85CA4008CBEA5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = F4V2F8ZVA8;
+					};
+				};
+			};
+			buildConfigurationList = F94118BA1BF85CA4008CBEA5 /* Build configuration list for PBXProject "FileTransfer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F94118B61BF85CA4008CBEA5;
+			productRefGroup = F94118C01BF85CA4008CBEA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F94118BE1BF85CA4008CBEA5 /* FileTransfer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F94118BD1BF85CA4008CBEA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94118D21BF85CA4008CBEA5 /* LaunchScreen.storyboard in Resources */,
+				F9E621F01C0EDC7000BA2191 /* TransferTaskViewCell.xib in Resources */,
+				F94118CF1BF85CA4008CBEA5 /* Assets.xcassets in Resources */,
+				F9D672CE1BFCB698000F20A3 /* temp.xcconfig in Resources */,
+				F94118F51BF8C3CB008CBEA5 /* Lion.jpg in Resources */,
+				F9626DD81C29316100BB2163 /* Upload in Resources */,
+				F94118ED1BF880D9008CBEA5 /* client1.jpg in Resources */,
+				F94118CD1BF85CA4008CBEA5 /* Main.storyboard in Resources */,
+				F9D672BB1BFC0FB2000F20A3 /* Flower.jpg in Resources */,
+				F94118F71BF8C4D4008CBEA5 /* client2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F94118BB1BF85CA4008CBEA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D672C91BFCB55B000F20A3 /* FileUploadViewController.m in Sources */,
+				F9D672DE1BFFADF1000F20A3 /* UIColor+AppColor.m in Sources */,
+				F9D672C71BFCB55B000F20A3 /* FileDownloadViewController.m in Sources */,
+				F94118F31BF88E2F008CBEA5 /* ImageTransferTaskView.m in Sources */,
+				F9D672D81BFF868F000F20A3 /* ImagePickerController.m in Sources */,
+				F94118E91BF86AE9008CBEA5 /* FileTranserTask.m in Sources */,
+				F9D672CA1BFCB55B000F20A3 /* ViewController.m in Sources */,
+				F9D672C81BFCB55B000F20A3 /* FileTransferViewController.m in Sources */,
+				F94118FD1BFB8075008CBEA5 /* UserDefaultsManager.m in Sources */,
+				F9668A9A1C146C6F00D62575 /* NSString+StringValidator.m in Sources */,
+				F94118C71BF85CA4008CBEA5 /* AppDelegate.m in Sources */,
+				F94118C41BF85CA4008CBEA5 /* main.m in Sources */,
+				F96BFA571C108B4100788380 /* ErrorInfo.m in Sources */,
+				F9E621EF1C0EDC7000BA2191 /* TransferTaskViewCell.m in Sources */,
+				F96BFA5A1C10B78200788380 /* FileCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F94118CB1BF85CA4008CBEA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94118CC1BF85CA4008CBEA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F94118D01BF85CA4008CBEA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94118D11BF85CA4008CBEA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F94118D41BF85CA4008CBEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F94118D51BF85CA4008CBEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F94118D71BF85CA4008CBEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FileTransfer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.sokasyn.project.FileTransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F94118D81BF85CA4008CBEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FileTransfer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.sokasyn.project.FileTransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F94118BA1BF85CA4008CBEA5 /* Build configuration list for PBXProject "FileTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94118D41BF85CA4008CBEA5 /* Debug */,
+				F94118D51BF85CA4008CBEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F94118D61BF85CA4008CBEA5 /* Build configuration list for PBXNativeTarget "FileTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94118D71BF85CA4008CBEA5 /* Debug */,
+				F94118D81BF85CA4008CBEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F94118B71BF85CA4008CBEA5 /* Project object */;
+}
